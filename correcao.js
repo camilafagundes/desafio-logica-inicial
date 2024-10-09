@@ -39,7 +39,7 @@ const nivel = classificarXP(xpAtual);
 // Encontrar o personagem correspondente
 const personagem = xp.find(p => p[1] === xpAtual);
 if (personagem) {
-    console.log("O nível correspondente a " + personagem[0] + " é: " + nivel);
+    console.log("O Herói de nome " + personagem[0] + " está no nível de: " + nivel);
 } else {
-    console.log("Personagem não encontrado.");
+    console.log("Herói não encontrado.");
 }
